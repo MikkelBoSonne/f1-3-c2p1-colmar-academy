@@ -1,0 +1,174 @@
+
+/*-----------------------------------
+              DESKTOP
+-----------------------------------*/
+@media only screen and (min-width: 600px) {
+  /* banner styles */
+  #hero-text-area {
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+  }
+
+  /* Content Styles */
+  .content {
+    display: flex;
+    flex-direction:;
+  }
+
+  .content img {
+    width: 92%;
+    margin: 32px 24px;
+  }
+
+  .content h1 {
+    font-size: 45px;
+    margin-left: 24px;
+    font-weight: 900;
+    width: 780px;
+  }
+
+  .content .description {
+    width: 750px;
+    margin-left: 24px;
+    margin-top: 24px;
+    font-size: 20px;
+  }
+
+  .content .author {
+    font-size: 16px;
+    margin-left: 24px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-weight: bold;
+  }
+
+  .content .text-container {
+    color: #535353;
+    padding-left: 16px;
+  }
+
+  .content-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .content-container .text-container h4 {
+    font-size: 25px;
+  }
+  /* side-bar styles */
+  #side-bar {
+    padding: 35px;
+    margin-top: 2px;
+  }
+
+  #side-bar-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  #side-bar .text-container {
+    align-items: flex-start;
+    margin: 24px;
+  }
+
+  #side-bar .text-container a,
+  h4 {
+    margin-bottom: 8px;
+    text-decoration-line: none;
+    max-width: 400px;
+  }
+
+  #side-bar .text-container p {
+    margin-bottom: 8px;
+  }
+
+  .image-side-bar {
+    width: 200px;
+  }
+
+  #side-bar-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  /* list styles */
+  #title {
+    margin: 32px 0px 32px 0px;
+  }
+
+  .list-text-items {
+    padding: 16px 0 24px 16px;
+  }
+
+  #list h4 {
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  #list-container {
+    max-width: 2000px;
+  }
+
+  #flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .list .item-container h4 {
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 35px;
+  }
+
+  .list-course {
+    display: block;
+    margin-bottom: 16px;
+  }
+
+  #list #list-wrapper .item-container {
+    position: relative;
+    overflow: hidden;
+    width: calc(33.3% - 32px);
+    margin-right: 32px;
+    justify-content: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+    background-color: white;
+  }
+
+  #list #list-wrapper .item-container img {
+    width: 100%;
+  }
+
+  #list-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% - 144px);
+    margin: 0 auto;
+  }
+  /* bottom-content */
+
+  #bottom-content {
+  }
+
+  /* bottom-side-bar styles */
+  .bottom-side-bar .text {
+    align-items: flex-start;
+    margin: 24px;
+  }
+
+  .bottom-side-bar img {
+    width: 200px;
+
+  }
+
+  .bottom-side-bar #flex-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+}

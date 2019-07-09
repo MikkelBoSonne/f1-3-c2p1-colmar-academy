@@ -1,0 +1,64 @@
+
+/* Header Styles */
+  header {
+    height: 64px;
+    display: flex;
+    align-items: center;
+  }
+  header .header {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  header .title {
+    display: flex;
+    align-items: center;
+    color: dimgrey;
+    margin-left: 24px;
+  }
+  header .links {
+    margin-right: 24px;
+  }
+  header .links * {
+    margin-left: 16px;
+  }
+  header img {
+    height: 24px;
+    width: 24px;
+  }
+  header h1 strong {
+    font-weight: bold;
+  }
+
+/*-----------------------------------
+              MOBILE
+-----------------------------------*/
+@media only screen and (max-width: 600px) {
+  header .title h1 {
+    display: none
+  }
+  header .links {
+    display: none
+  }
+  header .title {
+    width: 25%;
+  }
+  header .icons {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+  }
+  header img {
+    margin: 0 25px;
+  }
+}
+
+/*-----------------------------------
+              DESKTOP
+-----------------------------------*/
+@media only screen and (min-width: 599px) {
+  header .icons {
+    display: none
+  }
+}

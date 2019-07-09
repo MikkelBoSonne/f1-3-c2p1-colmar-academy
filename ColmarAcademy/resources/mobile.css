@@ -1,0 +1,149 @@
+
+/*-----------------------------------
+              MOBILE
+-----------------------------------*/
+@media only screen and (max-width: 600px) {
+
+  /* banner styles */
+  #hero-image{
+    width: 100%;
+    margin: 0px 0px 32px 0px;
+  }
+  .banner-background {
+    padding-bottom: 32px;
+  }
+
+  #hero-button {
+   margin: 0 auto;
+  }
+
+  #hero-h4 {
+   margin-bottom: 24px;
+   max-width: 400px;
+  }
+
+  .banner {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .banner h1 {
+    max-width: 500px;
+  }
+  /* content */
+  .content{
+    display: none;
+  }
+
+  /* side-bar styles */
+  #side-bar .flex-items {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #side-bar {
+  width: 100%;
+  }
+
+  #side-bar .text-container a {
+    text-decoration-line: none;
+  }
+
+  #side-bar .text-container a, p, h4 {
+    margin-bottom: 10px;
+  }
+
+  .image-side-bar {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  overflow: auto;
+  }
+
+  #side-bar .flex-item img {
+  height: auto;
+  }
+
+  /* list styles */
+  #list {
+    background-color: white;
+  }
+
+  #list h1 {
+    margin: 16px 0 16px 0;
+  }
+
+  #list img{
+    display: none;
+  }
+
+
+  #list #flex-container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   border-top: 1px solid lightgrey;
+   padding-top: 10px;
+  }
+
+
+  #list span {
+   display: none;
+  }
+
+  #list h4 {
+   font-size: 25px;
+   padding: 24px 16px 24px 16px;
+   width: 80%;
+   display: flex;
+   justify-content: flex-start;
+  }
+  #list #list-wrapper {
+       display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #list .item-container {
+   display: flex;
+   margin: 0 auto;
+   margin-bottom: 8px;
+   background-color: lightgray;
+   justify-content: center;
+   flex-direction: column;
+   width: calc(100% - 32px);
+  }
+  #list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  width: 100%;
+  }
+
+  /* bottom-content styles */
+  .bottom-side-bar {
+    display: none;
+  }
+
+  #bottom-content video {
+    max-width: 100%;
+  }
+
+  #text-container {
+    margin-left: 40px;
+  }
+
+  #bottom-content p, .text-container {
+    display: none;
+  }
+
+  #bottom-content .text-container {
+  }
+
+  #bottom-content-container {
+    flex-direction: column;
+    margin-left: 0;
+  }
+}
